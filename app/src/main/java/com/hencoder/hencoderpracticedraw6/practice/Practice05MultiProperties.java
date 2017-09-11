@@ -48,7 +48,7 @@ public class Practice05MultiProperties extends ConstraintLayout {
                                 .rotation(360)
                                 .translationX(200)
                                 .scaleY(1)
-                                .scaleY(1);
+                                .scaleX(1);
                         break;
                     case 1:
                         imageView.animate()
@@ -56,7 +56,7 @@ public class Practice05MultiProperties extends ConstraintLayout {
                                 .rotation(0)
                                 .translationX(0)
                                 .scaleY(0)
-                                .scaleY(0);
+                                .scaleX(0);
                         break;
                 }
                 animatorState ++;
